@@ -27,7 +27,7 @@ class paymentsSeeder extends Seeder
 $dato->rental_id = 1;
 $dato->amount = 150.00;
 $dato->payment_method = 'card';
-$dato->transaction_id = 'TXN123456';
+$dato->transaction_id = 'TXN1234567';
 $dato->status = 'completed';
 $dato->payment_date = now();
 $dato->save();

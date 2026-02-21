@@ -19,7 +19,7 @@ class brandsSeeder extends Seeder
             'img'=>'default.jpg'
         ]);
          $dato= new brand(); //insert into
-         $dato->name='toyota';
+         $dato->name='Nisan';
         $dato->img='default.jpg';
         $dato->save();
     }

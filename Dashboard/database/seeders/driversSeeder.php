@@ -22,7 +22,7 @@ class driversSeeder extends Seeder
         ]);
          $dato= new driver(); //insert into
         $dato->user_id=1;
-        $dato->license_number='ABC1';
+        $dato->license_number='ABC2';
          $dato->license_img='default.jpg';
         $dato->save();
     }

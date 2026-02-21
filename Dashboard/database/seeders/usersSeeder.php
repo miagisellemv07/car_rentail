@@ -23,8 +23,8 @@ class usersSeeder extends Seeder
     'loyalty_level_id' => 1             
 ]);
 $dato = new User();
-$dato->name = 'Mia Minjarez';
-$dato->email = 'Mia@gmail.com';
+$dato->name = 'Mia Minjarez2';
+$dato->email = 'Mia2@gmail.com';
 $dato->password = Hash::make('123456');
 $dato->img = 'default.jpg';
 $dato->loyalty_points = 100;

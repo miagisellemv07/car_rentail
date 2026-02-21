@@ -29,11 +29,12 @@ class carsSeeder extends Seeder
         'daily_rate'=>678,
         'status'=>'available'
         ]);
-         $dato= new brand(); //insert into
+         $dato= new car(); //insert into
          $dato->brand_id=1;
         $dato->year=2020;
+        $dato->model ='Corolla';
         $dato->color='Rosa';
-        $dato->license_plate='MIV34G';
+        $dato->license_plate='MIV35G';
         $dato->mileage=76478365;
         $dato->lat=54.45;
         $dato->lng=356.32;

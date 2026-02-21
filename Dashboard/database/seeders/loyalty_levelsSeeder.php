@@ -21,8 +21,8 @@ class loyalty_levelsSeeder extends Seeder
         'discount_percentage' => 20,
         'free_extra_hours' => 2
         ]);
-         $dato= new loyalty_levels(); //insert into
-        $dato->name = 'VIP';
+         $dato= new loyalty_level(); //insert into
+        $dato->name = 'Basic';
         $dato->main_points = 1000;
         $dato->discount_percentage = 20;
         $dato->free_extra_hours = 2;
