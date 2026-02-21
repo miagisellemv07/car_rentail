@@ -6,6 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;/*conexion*/
 use Illuminate\Support\Facades\Hash;/*conexion*/
+use App\Models\car;
 
 class carsSeeder extends Seeder
 {
@@ -29,8 +30,17 @@ class carsSeeder extends Seeder
         'status'=>'available'
         ]);
          $dato= new brand(); //insert into
-         $dato->name='toyota';
-        $dato->img='default.jpg';
+         $dato->brand_id=1;
+        $dato->year=2020;
+        $dato->color='Rosa';
+        $dato->license_plate='MIV34G';
+        $dato->mileage=76478365;
+        $dato->lat=54.45;
+        $dato->lng=356.32;
+        $dato->is_premiun=1;
+        $dato->rental_count=5;
+        $dato->daily_rate=678;
+        $dato->status='available';
         $dato->save();
     }
 }

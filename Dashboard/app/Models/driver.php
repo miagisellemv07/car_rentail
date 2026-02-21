@@ -9,6 +9,6 @@ class driver extends Model
      protected $fillable = [
         'user_id',
         'license_number',
-        'license_img',
+        'license_img'
     ];
 }
