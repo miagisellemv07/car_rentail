@@ -14,4 +14,5 @@ class payment extends Model
         'status',
         'payment_date'
     ];
+
 }

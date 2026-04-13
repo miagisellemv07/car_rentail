@@ -10,4 +10,5 @@ class brand extends Model
         'name',
         'img'
     ];
+    
 }

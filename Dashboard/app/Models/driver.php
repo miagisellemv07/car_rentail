@@ -10,5 +10,5 @@ class driver extends Model
         'user_id',
         'license_number',
         'license_img'
-    ];
+    ]; 
 }
