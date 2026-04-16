@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('rentals', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->references('id')->on('users');
-            $table->foreignId('car_id')->references('id')->on('cars');
-            $table->foreignId('driver_id')->references('id')->on('drivers');
+          $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+        $table->foreignId('car_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('driver_id')->constrained()->cascadeOnDelete();
             $table->date('pickup_date');
             $table->date('return_date');
             $table->integer('total_amount');
